@@ -1,0 +1,105 @@
+body, h1, p, span{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    color: #F2F2F0;
+    text-align: center;
+    margin: 30px 0;
+}
+
+body{
+    background-color: #0D0D0D;
+}
+
+/* Calculadora */
+
+#calculator{
+    background-color: #787CBF;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#screen-container{
+    width: 258px;
+    height: 70px;
+    border: 1px solid #464AA6;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+#upper-number, #result-number{
+    float: right;
+    color: #F2F2F0;
+}
+
+#result-number{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22px;
+    clear: both;
+}
+
+/* botoes */
+
+.btn-container{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: #F2F2F0;
+    background-color: #1B208C;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #464AA6;
+}
+
+#ac-btn{
+    margin-left: -200px;
+}
+
+#division-btn{
+    position: absolute;
+    right: 14px;
+}
+
+#equals-btn{
+    background-color: #0D0D0D;
+}
+
+#equals-btn:hover{
+    background-color: #323E40;
+}
+
+#zero-btn, #equals-btn{
+    border-radius: 10px;
+    width: 120px;
+}
